@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Poppins" controllayout="npnxnanbsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Poppins" controllayout="pxabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Poppins" controllayout="npxnabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Poppins" controllayout="npnxnanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Poppins" controllayout="pxabnsnfns00000000000" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -28,14 +28,14 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
-          <option name="time_enabled" value="false">
+          <option name="time_enabled" value="true">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="remaining" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -70,11 +70,12 @@
           <option name="search" value="false" />
           <option name="closed_captions" value="false">
             <options>
-              <option name="font" value="Open Sans" />
+              <option name="font" value="Poppins" />
             </options>
           </option>
           <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1116,6 +1117,17 @@
           </color>
         </group_colors>
       </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x984807" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
     </colorscheme>
   </colorschemes>
   <string_tables>
@@ -1274,7 +1286,7 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Open Sans">
+    <font name="Poppins">
       <files>
         <file bold="true" italic="false" />
         <file bold="false" italic="false" />
@@ -1285,9 +1297,94 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5obtEmbzmMQ" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.5obtEmbzmMQ" displaytext="Landing" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5obtEmbzmMQ.5udhruUehaT" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5obtEmbzmMQ.5udhruUehaT" displaytext="Landing" expand="false" type="slide" />
+            <slidelink slideid="_player.5obtEmbzmMQ.6aUsP6vlLRS" displaytext="Menu" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6McK2zSrOzk" displaytext="Materi" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6McK2zSrOzk.5Z0S4guUDa2" displaytext="Peta" expand="false" type="slide" />
+            <slidelink slideid="_player.6McK2zSrOzk.6qjXzlMdWm7" displaytext="Opening" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6IuaVEl91pY" displaytext="Basecamp" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6IuaVEl91pY.5tMgh4nWWpV" displaytext="Landing" expand="false" type="slide" />
+            <slidelink slideid="_player.6IuaVEl91pY.6OhfEuaAraz" displaytext="Kuadran I" expand="false" type="slide" />
+            <slidelink slideid="_player.6IuaVEl91pY.6QiVnqkLN2i" displaytext="Kuadran II" expand="false" type="slide" />
+            <slidelink slideid="_player.6IuaVEl91pY.66h3ZIe5J8G" displaytext="Kuadran III" expand="false" type="slide" />
+            <slidelink slideid="_player.6IuaVEl91pY.5jYwlRxXAao" displaytext="Kuadran IV" expand="false" type="slide" />
+            <slidelink slideid="_player.6IuaVEl91pY.6oPmTztxCUi" displaytext="Kuadran" expand="false" type="slide" />
+            <slidelink slideid="_player.6IuaVEl91pY.6aTzdwWS6XM" displaytext="Radian" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6mbMLsyfXGM" displaytext="Bukit Sin" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6mbMLsyfXGM.6MzCTgUI8ec" displaytext="Pendahuluan sin" expand="false" type="slide" />
+            <slidelink slideid="_player.6mbMLsyfXGM.5YYf7POtNrK" displaytext="applet sin" expand="false" type="slide" />
+            <slidelink slideid="_player.6mbMLsyfXGM.5uspglRv7RR" displaytext="kesimpulan sin" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5sT2kiRwX3u" displaytext="Lembah Cos" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5sT2kiRwX3u.6Gn2aRcdHNp" displaytext="pendahuluan cos" expand="false" type="slide" />
+            <slidelink slideid="_player.5sT2kiRwX3u.6X5Bh0mQGNT" displaytext="applet cos" expand="false" type="slide" />
+            <slidelink slideid="_player.5sT2kiRwX3u.6TGZAZmOsL8" displaytext="kesimpulan cos" expand="false" type="slide" />
+            <slidelink slideid="_player.5sT2kiRwX3u.6Oo4XKWPZbX" displaytext="perbandingan sin cos" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6k9cxuvxtEg" displaytext="Ngarai Tan" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6k9cxuvxtEg.5br6F3ZgVS7" displaytext="pendahuluan tangen" expand="false" type="slide" />
+            <slidelink slideid="_player.6k9cxuvxtEg.5kU22CCJGMg" displaytext="applet tangen" expand="false" type="slide" />
+            <slidelink slideid="_player.6k9cxuvxtEg.5kUMZDtS3FI" displaytext="kesimpulan tangen" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5pxNlSlvDeE" displaytext="Gua Pedalaman" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5pxNlSlvDeE.5XZjYnqG4oB" displaytext="pendahuluan gua sapphire" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.5do0TrMg7OL" displaytext="Lorong Sapphire" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6R7d3fyZY8Q" displaytext="Lorong Zamrud" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6GyxqOOZpJQ" displaytext="pendahuluan gua emerald" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6m9XuWnaZyB" displaytext="pendahuluan gua emerald" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.68Cu9bLJ6T4" displaytext="pendahuluan gua emerald" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.5kLDnrBfKy5" displaytext="Soal c1" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.5fJj8eKrLAs" displaytext="Soal c2" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.5iTn93fmQc7" displaytext="materi transformasi" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6qQXmgXIwrW" displaytext="kesimppulan amplitudo" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.5Y0wRCVQYiM" displaytext="pendahuluan fungsi kompleks" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6hojzWF8iM5" displaytext="pendahuluan fungsi kompleks" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.5j9Bg5SNm8h" displaytext="pendahuluan fungsi kompleks" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6WIFew7DQ8s" displaytext="applet amplitudo" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.5h1QIzp8qWq" displaytext="Soal a1" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6Y0BIwauCmG" displaytext="Soal a2" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6ZP2LzKlXjG" displaytext="pendahuluan fungsi kompleks" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6QjZO7cH50G" displaytext="Soal k1" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6qSq2kbDhKQ" displaytext="Soal k2" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.5raZt9b1cc1" displaytext="pendahuluan fungsi kompleks" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.61dkfNIbGKa" displaytext="Soal b1" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.6Rip6tgy4Eg" displaytext="Soal b2" expand="false" type="slide" />
+            <slidelink slideid="_player.5pxNlSlvDeE.5tyklFjaXjR" displaytext="pendahuluan fungsi kompleks" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5heaELuV2HA" displaytext="Kuis" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5heaELuV2HA.5oLVYsXF5SQ" displaytext="home kuis" expand="false" type="slide" />
+            <slidelink slideid="_player.5heaELuV2HA.5XhA7EoJwUI" displaytext="Draw from Question Bank 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5heaELuV2HA.6H0s7TRpWvs" displaytext="Periksa kembali jawabanmu!&#xA;Tekan tombol di bawah ini untuk melihat hasil kuis!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5yGEDPZfcrU" displaytext="Game" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5yGEDPZfcrU.6lLsZ6MWXJx" displaytext="Dashboard" expand="false" type="slide" />
+            <slidelink slideid="_player.5yGEDPZfcrU.63sWGDqz9jZ" displaytext="Tablet" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6MFREzgBP3S" displaytext="CP TP" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6MFREzgBP3S.6nJBc5jxODh" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
